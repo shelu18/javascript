@@ -2,3 +2,14 @@
 var tweet= prompt("compose your tweet");
 var tweetunder140=tweet.slice(0,140);
 alert(tweetunder140);
+
+
+
+
+
+//doing capital the first letter of the string of runtime input;;;;l
+var name =prompt ("enter your name");
+var name1 = name.slice(0,1);
+var name2= name.slice(1,30);
+ var uppercase = name1.toUpperCase();
+alert("hello"+ " "+uppercase+name2);
