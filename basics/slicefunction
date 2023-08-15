@@ -9,7 +9,13 @@ alert(tweetunder140);
 
 //doing capital the first letter of the string of runtime input;;;;l
 var name =prompt ("enter your name");
-var name1 = name.slice(0,1);
-var name2= name.slice(1,30);
- var uppercase = name1.toUpperCase();
-alert("hello"+ " "+uppercase+name2);
+var firstletter = name.slice(0,1);//pehla character ko alag nikal liya
+
+
+var restletters= name.slice(1,30); //yahan per bache hue characters ko nikal liya 
+
+ var uprcse_fistltr = firstletter.toUpperCase();//first letter ko uppercase me convert kar diya 
+ var lwcase_rstltr =restletters.toLowerCase();  //baki bache hue rest letters ko lowercase me convert kar diya
+
+alert("hello"+ " "+uprcse_fistltr+lwcase_rstltr);
+
