@@ -8,3 +8,15 @@ function whoospaying(names) {
 
 var names = ["Alice", "Bob", "Charlie", "David"];  // Define an array of names.
 console.log(whoospaying(names));  // Call the function and print the lunch message to the console.
+
+//my code
+// array problem
+function whoospay(names){
+var numberOfperson =names.length;
+ var randompersonposition=Math.floor(Math.random()*numberOfperson);
+var randomperson=names[randompersonposition];
+return randomperson + " "+ "going to pay";
+}
+var arr=["rahul","shyam","mohan","radhe"];
+console.log(whoospay(arr));
+
