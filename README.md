@@ -1,1 +1,1 @@
-# javascript
+# here all notes basic to advance concepts of js is covered with simple notes for revision purpose
