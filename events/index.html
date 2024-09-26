@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        #output {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        ul#images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            list-style-type: none;
+            margin-top: 2rem;
+        }
+        ul#images li {
+            margin: 0.5rem;
+        }
+        ul#images img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        li a {
+            display: inline-block;
+            margin: 1rem 0;
+            color: rgb(1, 8, 13);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event Listener Practice</h1>
+        <button id="clickMe">Click Me</button>
+        <button id="hoverMe">Hover Me</button>
+        <button id="doubleClickMe">Double Click Me</button>
+        <div id="output">Event output will appear here</div>
+        <li><a href="https://google.com" id="google">Google</a></li>
+
+        <ul id="images">
+            <li><img id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="japan"></li>
+            <li><img id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="river"></li>
+            <li><img id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="owl"></li>
+            <li><img id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="prayer"></li>
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,7 +1,8 @@
-console.log("hitesh")
+
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
-
+var audio = new Audio('audio_file.mp3');
+audio.play();
 buttons.forEach(function (button) {
   console.log(button);
   button.addEventListener('click', function (e) {
@@ -22,3 +23,19 @@ buttons.forEach(function (button) {
     
   });
 });
+
+//using switch case
+
+//     switch (e.target.id) {
+//       case 'grey':
+//       case 'white':
+//       case 'blue':
+//       case 'yellow':
+//         body.style.backgroundColor = e.target.id;
+//         break;
+//       default:
+//         console.log('Unknown color');
+//     }
+//   });
+// });
+
