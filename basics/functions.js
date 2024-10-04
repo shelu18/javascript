@@ -8,3 +8,8 @@ function dudh_leke_aa(){
 }
  
  dudh_leke_aa();
+//arrow function and regular function 
+
+
+//** 
+//Arrow functions in JavaScript behave differently from regular functions when it comes to the this keyword. This is because arrow functions do not have their own this context. Instead, they inherit this from the surrounding (lexical) scope in which they are defined. 

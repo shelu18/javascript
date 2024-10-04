@@ -3,8 +3,8 @@ const newNum = num.filter((num) =>{
      return num>3})      //explicit and emplicit return whenever we are using the { } the we must have to use the return keyword......
 // console.log(newNum)
 //Purpose:
-/*filter: Used to filter out elements based on a condition.
-map: Used to transform each element in the array.
+/*filter: Used to filter out elements based on a condition. and not perform any operatin on the number 
+map: Used to transform each element in the array.it can form a new array by performing operation on the existing array 
 Return Value:
 filter: Returns a new array with elements that pass the test.
 map: Returns a new array with transformed elements.
@@ -36,3 +36,9 @@ const books = [
     return bks.genre==='Non-Fiction'
   })
   console.log(userbook)
+//object pr filter laga he apan array pr bhi laga sakte he laga ke dekhte he 
+let arr =[1,2,3,4,5]
+let newarr =arr.filter((ar)=>{
+  return ar>2
+})
+console.log(`ye rahe 3 se bade elements ${newarr}`)

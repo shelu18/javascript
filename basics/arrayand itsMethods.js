@@ -1,6 +1,7 @@
 //folowing are the methods of array 
 //push ,pop
 //shift ,unshift 
+//include ,slice ,splice 
 let myarr=[1,2,3,4,5,6]
 console.log(myarr)
 console.log(myarr.includes(2));
