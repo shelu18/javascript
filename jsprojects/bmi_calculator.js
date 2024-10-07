@@ -4,6 +4,7 @@ height=height/100;
  var bmi = weight/(height*height);
  console.log(bmi);
  if (bmi<18.5){
+  alert("your bmi is"+" "+bmi+" "+"and you are underweight")
   console.log("your bmi is"+" "+bmi+" "+"and you are underweight");
  }
 if(bmi>=18.5&& bmi<=24.90){
