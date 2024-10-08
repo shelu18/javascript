@@ -46,5 +46,6 @@ const myobject=
     fileName:"cpp"
     }];
     myCoding.forEach((items)=>{
-        console.log(items.languageName)
+        console.log(items.fileName)
     })
+//items have access to all the values defined inside the object 
